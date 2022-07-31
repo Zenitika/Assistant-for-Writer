@@ -28,7 +28,7 @@ ___
 
 ### Installation instructions
 ___
-​ ​ ​ ​ ​ ​ ​ ​ The application does not need to be installed, it is portable, you just need to download and run it. It is advisable to place the downloaded .exe file in a separate folder, because the first time you run it, a folder is created in the same place where the .exe is located for your saves. Also, the "main.log" file will be created there. It will store all the errors that occurred during the work in the application. Your data is not transferred anywhere. It was needed only so that, if you wish, you could write about a malfunction by attaching error data.  
+​ ​ ​ ​ ​ ​ ​ ​ The application does not need to be installed, it is portable, you just need to download and run it. But for correct operation, the installed Chrome browser of the latest version is required. It is advisable to place the downloaded .exe file in a separate folder, since the first time you start it, a folder is created in the same place as the .exe for your saves. It will also create a "main.log" file there. It will store all the errors that occurred while working in the application. Your data is not transferred anywhere. It was needed only so that, if desired, it was possible to write about a malfunction by attaching error data.  
  ​ ​ ​ ​ ​ ​ ​ If you decide to build the .exe file from sources yourself, then you will need installed python, version 3.10.4 or higher, and installed dependencies from the "requirements.txt" file. Next, you can create an .exe in the following way:
  1. Setting up virtualenv with required Python version and specified required Python packages from "requirements.txt" file
  2. Installing PyInstaller ```pip install PyInstaller```
