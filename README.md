@@ -17,7 +17,7 @@ ___
 - Zenitika
 ### About app
 ___
-​ ​ ​ ​ ​ ​ ​ ​ This is an application that primarily seeks to make things easier for writers. Here are some features that you can already find there:
+​ ​ ​ ​ ​ ​ ​ ​ This is a Windows 10 app that is primarily designed to make life easier for writers. Here are some features you can already find there:
 1. Simple built-in text editor and spell checker
 2. Various tools for editing individual elements of your story
     >Editing characters, building locations, etc.
