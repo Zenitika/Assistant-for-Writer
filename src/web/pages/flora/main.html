@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="/eel.js"></script>
+    <link rel="icon" type="image/png" href="icon.ico">
+    <script src="main.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flora editor</title>
+</head>
+<body>
+    <section id="right_bar">
+        <section id="editor_block">
+            <form>
+                <label for="fname">Name:</label><br>
+                <div id="fname_flora" contenteditable="true"></div><br>
+
+                <label for="lname">Description:</label><br>
+                <div id="sname_flora" contenteditable="true"></div><br>
+
+                <label for="lname">Basic information:</label><br>
+                <div id="main_info_flora" contenteditable="true"></div><br>
+
+                <label for="second_info">Additional Information:</label><br>
+                <div id="second_info_flora" contenteditable="true"></div><br>
+
+                <label for="lname">Appearance:</label><br>
+                <div id="look_flora" contenteditable="true"></div><br>
+
+                <label for="lname">Unique Features:</label><br>
+                <div id="personality_flora" contenteditable="true"></div><br>
+
+                <label for="fname">Interaction with the environment:</label><br>
+                <div id="freandship_flora" contenteditable="true"></div><br>
+
+                <label for="lname">Story:</label><br>
+                <div id="history_flora" contenteditable="true"></div><br>
+
+                <label for="lname">Future:</label><br>
+                <div id="futher_flora" contenteditable="true"></div><br>
+
+                <label for="lname">Notes:</label><br>
+                <div id="notes_flora" contenteditable="true"></div><br>
+            </form>
+        </section>
+    </section>
+    <section id="left_bar">
+        <section id="menu_tool">
+            <div class="border_text">┍━━━━━━━━╝✹╚━━━━━━━━━┑</div>
+            <button tabindex="-1" id="back"> ⬅ Back ⬅ </button>
+            <li><button tabindex="-1" id="save">Save</button></li>
+            <li><button tabindex="-1" id="save_us">Save as</button></li>
+            <li><button tabindex="-1" id="save_load">Load autosave</button></li>
+            <li><button tabindex="-1" id="open_file">Open file</button></li>
+            <li><button tabindex="-1" id="open_folder">Open saves folder</button></li>
+            <li><button tabindex="-1" id="delete_file">Delete save</button></li>
+            <li><button tabindex="-1" id="remove_text_in_fields">Clear all fields</button></li>
+            <li><button tabindex="-1" id="btn_ex">Exit</button></li></li>
+            <li><div class="li_border_text">《 ⬇ Text editing ⬇ 》</div></li></li>
+            <li><button tabindex="-1" id="justifyleft" onclick="formatDoc('justifyleft');">Align text left</button></li>
+            <li><button tabindex="-1" id="justifycenter" onclick="formatDoc('justifycenter');">Align text to center edge</button></li>
+            <li><button tabindex="-1" id="justifyright" onclick="formatDoc('justifyright');">Align text right</button></li>
+            <li><button tabindex="-1" id="ustifyFull" onclick="formatDoc('justifyFull');">Align text to text width</button></li>
+            <li><button tabindex="-1" id="underlin" onclick="formatDoc('underline');">Underlined</button></li>
+            <li><button tabindex="-1" id="bold" onclick="formatDoc('bold');">Bold</button></li>
+            <li><button tabindex="-1" id="italics" onclick="formatDoc('italic');">Italics</button></li>
+            <li><button tabindex="-1" id="removeFormat" onclick="formatDoc('removeFormat');">Clean up formatting</button></li>
+            <li><button tabindex="-1" id="strikeThrough" onclick="formatDoc('strikeThrough');">Strikethrough</button></li>
+            <li><button tabindex="-1" id="superscript" onclick="formatDoc('superscript');">Superscript</button></li>
+            <li><button tabindex="-1" id="subscript" onclick="formatDoc('subscript');">Subscript</button></li>
+            <li><button tabindex="-1" id="redo" onclick="formatDoc('redo');">Return changes</button></li>
+            <li><button tabindex="-1" id="undo" onclick="formatDoc('undo');">Cancel changes</button></li>
+            <li><button tabindex="-1" id="insertText" onclick="formatDoc('insertText');">Add padding</button></li>
+            <li><button tabindex="-1" id="unlink" onclick="formatDoc('unlink');">Remove hyperlink</button></li>
+            <li><button tabindex="-1" id="indent" onclick="formatDoc('indent');">Add indent for all lines</button></li>
+            <li><button tabindex="-1" id="insertHorizontalRule" onclick="formatDoc('insertHorizontalRule');">Add a horizontal line</button></li>
+            <div class="border_text">┕━━━━━━━━╗✹╔━━━━━━━━━┙</div>
+        </section>
+    </section>
+</body>
+</html>

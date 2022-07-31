@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Lobster_Regular;
+    src: url("../..fonts/lobster/Lobster-Regular.ttf");
+}
+
+@font-face {
+    font-family: Comfortaa_VariableFont_wght;
+    src: url("../../fonts/comfortaa/Comfortaa-VariableFont_wght.ttf");
+}
+
+body {
+    background-color: #282A31;
+    background-repeat: no-repeat;
+    height: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 1.25vw;
+}
+
+body::-webkit-scrollbar-track {
+    background: #C4B9B6;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #888291;
+    border-radius: 1vw;
+    border: 0.25vw solid #c4b9b6bb;
+}
+
+button,
+div.border_text,
+div.li_border_text {
+    width: 20vw;
+    height: auto;
+    min-height: 1.65vw;
+    margin: 0.5vw;
+    font-family: Comfortaa_VariableFont_wght, Arial, sans-serif;
+    font-size: 1vw;
+    background-color: #C4B9B6;
+    border-radius: 0.5vw;
+    border: none;
+}
+
+button:hover {
+    border-style: solid;
+    border-width: 1px;
+    background-color: #C4B9B6;
+}
+
+button:active {
+    border-style: solid;
+    border-width: 1.5px;
+    background: none;
+}
+li {
+    list-style-type: none;
+}
+ul {
+    padding-left: 0;
+}
+
+div.border_text {
+    width: 100%;
+    border-radius: 0;
+    margin: 0 0 0 0.3vw;
+    box-shadow: 10px 5px 10px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 1vw 0;
+}
+div.li_border_text {
+    margin: 1vw 0;
+    padding: 1vw;
+}
+
+#editor {
+    width: 75vw;
+    margin-top: 1vw;
+    font-family: monospace;
+    font-size: 1.5vw;
+    background-color: #F6F2F6;
+    border-radius: 0.4vw;
+    resize: vertical !important;
+}
+
+#notes {
+    width: 75vw;
+    margin-top: 1vw;
+    font-family: monospace;
+    font-size: 1.4vw;
+    background-color: #F6F2F6;
+    border-radius: 0.4vw;
+}
+
+#editor_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1vw;
+}
+#bar_menu {
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 22%;
+    background-color: #6F6878;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#bar_menu::-webkit-scrollbar {
+    width: 0.8vw;
+}
+
+#bar_menu::-webkit-scrollbar-track {
+    background: #C4B9B6;
+}
+
+#bar_menu::-webkit-scrollbar-thumb {
+    background-color: #888291;
+    border-radius: 1vw;
+    border: 0.25vw solid #c4b9b6bb;
+}
